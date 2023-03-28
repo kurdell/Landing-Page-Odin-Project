@@ -81,7 +81,7 @@ a{
     color: #333;
 }
 
-.btn-hero{
+.btn-signup{
     padding: 10px 30px; 
     background: #2764DB;
     color: #fff; 
@@ -181,4 +181,65 @@ a{
     display: flex;
     justify-content: flex-end;
     font-size: 25px;
+}
+
+/* Call to action */
+
+.signup-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.action-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+
+}
+
+.subtext{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500; 
+    font-style: italic;
+}
+
+.btn-signup-2{
+    padding: 10px 30px; 
+    background: #2764DB;
+    color: #fff; 
+    border: none;
+    border: 1px solid white;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    height: 30px;
+    width: 110px;
+    margin-top: 18px;
+}
+
+/* Footer */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.credit a {
+    color: white;
+    font-size: 15px;
 }
